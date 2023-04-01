@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <style>
+        .container{
+    border: 4px solid black;
+    background-color: #f94a3d;
+    padding: 75px;
+    margin: 60px auto;
+    border-radius: 15px;
+    width: 666px;
+        }
+
+.btn:hover{
+    color:  rgb(254, 231, 187);
+    font-weight: bold;
+    background-color:  #68260dc9;
+    border: 2px solid black;
+}
+.btn{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 30px;
+    width: 90px;
+    background-color: bisque;
+    padding: 6px;
+    margin: 25px 288px;
+    border: none;
+    cursor: pointer;   /*changes the cursor and brings out the tiny hand*/
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+}
+.form.group input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 4px solid #68260dc9;
+        margin: 10px auto;
+        border-radius: 8px;
+        font-size: 25px;
+        cursor: pointer;
+
+    }
+    .form.group input:hover{
+        color:  #68260dc9;
+        background-color: rgb(246, 208, 172) ;
+    }
+    .form.group input textarea{
+        text-align: center;
+        display: block;
+        padding: 1px;
+        border: 2px solid #68260dc9;
+        margin: 10px auto;
+        border-radius: 8px;
+        font-size: 25px;
+        width: 445px;
+    height: 146px;
+
+
+    }
+    .form.group textarea {
+    padding: 18px;
+    margin: 13px 126px;
+    border-radius: 15px;
+    border: 4px solid #68260dc9;
+    text-align:center ;
+    font-weight: bold;
+    
+}
+    .form.group textarea:hover{
+        color: rgb(20, 18, 16);
+        background-color: rgb(246, 208, 172) ;
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    body{
+        background-color: rgb(253 244 217);
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact us/Feedback</h1>
+        <form action=""></form>
+        <div class="form group">
+            <input type="text" name="name" placeholder="Enter your full name">
+        </div>
+        <div class="form group">
+            <input type="number" name="phoneno" placeholder="Enter your phone number">
+        </div>
+        <div class="form group">
+            <input type="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="form group">
+            <label for="name"></label>
+            <textarea name="msg" id="message" cols="50" rows="10" placeholder="enter your message/feedback"></textarea>
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
